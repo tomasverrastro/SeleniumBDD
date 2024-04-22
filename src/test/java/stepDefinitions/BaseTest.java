@@ -24,6 +24,8 @@ public class BaseTest {
     public SignUpPage signUpPage;
     public ContactUsPage contactUsPage;
     public TestCasesPage testCasesPage;
+    public ProductsPage productsPage;
+    public CartPage cartPage;
 
     //Declare waits
 

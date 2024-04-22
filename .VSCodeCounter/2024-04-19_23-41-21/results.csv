@@ -1,0 +1,20 @@
+"filename", "language", "Properties", "Java", "XML", "comment", "blank", "total"
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\.idea\encodings.xml", "XML", 0, 0, 7, 0, 0, 7
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\.idea\misc.xml", "XML", 0, 0, 15, 0, 0, 15
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\.idea\vcs.xml", "XML", 0, 0, 6, 0, 0, 6
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\pom.xml", "XML", 0, 0, 91, 13, 19, 123
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\main\java\org\example\App.java", "Java", 0, 8, 0, 4, 2, 14
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\org\example\AppTest.java", "Java", 0, 20, 0, 14, 5, 39
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\CartPage.java", "Java", 0, 112, 0, 0, 24, 136
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\ContactUsPage.java", "Java", 0, 70, 0, 0, 22, 92
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\HomePage.java", "Java", 0, 127, 0, 0, 35, 162
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\LoginPage.java", "Java", 0, 90, 0, 0, 25, 115
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\ProductsPage.java", "Java", 0, 200, 0, 0, 48, 248
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\SignUpPage.java", "Java", 0, 136, 0, 0, 45, 181
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\pageObjects\TestCasesPage.java", "Java", 0, 23, 0, 0, 8, 31
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\stepDefinitions\BaseTest.java", "Java", 0, 18, 0, 3, 14, 35
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\stepDefinitions\Hooks.java", "Java", 0, 24, 0, 1, 9, 34
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\stepDefinitions\Steps.java", "Java", 0, 288, 0, 7, 73, 368
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\java\testRunners\TestRun.java", "Java", 0, 8, 0, 0, 4, 12
+"c:\Users\tomas\IdeaProjects\Automationexercise Selenium BDD\src\test\resources\config.properties", "Properties", 1, 0, 0, 0, 0, 1
+"Total", "-", 1, 1124, 119, 42, 333, 1619

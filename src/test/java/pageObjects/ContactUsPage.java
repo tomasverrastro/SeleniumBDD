@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import stepDefinitions.Hooks;
 
+import java.io.File;
+
 public class ContactUsPage extends Hooks {
 
     @FindBy(xpath = "//h2[normalize-space()='Get In Touch']")
@@ -23,7 +25,7 @@ public class ContactUsPage extends Hooks {
     @FindBy(xpath = "//input[@placeholder='Subject']")
     WebElement txtSubject;
 
-    @FindBy(id = "//textarea[@id='message']")
+    @FindBy(xpath = "//textarea[@id='message']")
     WebElement txtMessage;
 
     @FindBy(xpath = "//input[@name='upload_file']")
@@ -78,7 +80,8 @@ public class ContactUsPage extends Hooks {
     }
 
     public void uploadFile(){
-        fileUpload.sendKeys("message.txt");
+        File file = new File("TestFiles/message.txt");
+        fileUpload.sendKeys(file.getAbsolutePath());
     }
 
     public void clickSubmit(){

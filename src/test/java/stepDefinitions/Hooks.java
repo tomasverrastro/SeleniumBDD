@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.time.Duration;
 
 public class Hooks {
@@ -17,8 +18,8 @@ public class Hooks {
     @Before
     public void setUp(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized", "--incognito", "--disable-gpu", "--disable-extensions");
-
+        options.addArguments("start-maximized", "--disable-gpu");
+        options.addExtensions(new File(".//Extensions//AdGuard.crx"));
         driver = new ChromeDriver(options);
 
         //Set waits
